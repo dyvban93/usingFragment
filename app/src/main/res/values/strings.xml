@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ComposantesGraphiques</string>
+
+    <string name="pref_francais_label">Francais</string>
+    <string name="pref_anglais_label">English</string>
+    <string name="pref_lang_label">Choose a language</string>
+
+    <string name="msg_first_form">Step &#8531;: Personnal informations</string>
+    <string name="msg_second_form">Step 2/3: Contact information</string>
+    <string name="msg_final_form">Step 3/3: Security</string>
+    <string name="prec_btn">Back</string>
+    <string name="suiv_btn">Continue</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nom">Name</string>
+    <string name="pnom">First name</string>
+    <string name="day_choose">Choose a date</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="adresse">Adresse</string>
+    <string name="mail">Email</string>
+    <string name="phone">Phone number</string>
+    <string name="date_naiss">Votre date de naissance</string>
+
+</resources>

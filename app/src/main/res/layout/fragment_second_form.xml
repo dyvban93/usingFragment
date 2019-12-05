@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    tools:context="com.projects.bakota.composantesgraphiques.SecondFormFragment">
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/msg_second_form"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+
+
+        <EditText android:id="@+id/input_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:textColor="#000"
+            android:hint="@string/phone" />
+
+        <EditText android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="#000"
+            android:hint="@string/mail" />
+
+        <EditText android:id="@+id/input_adresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="#000"
+            android:hint="@string/adresse" />
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_second_suiv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:layout_marginBottom="24dp"
+                android:layout_alignParentRight="true"
+                android:padding="12dp"
+                android:textAllCaps="false"
+                android:background="@color/colorPrimary"
+                android:text="@string/suiv_btn"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
